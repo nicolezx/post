@@ -1,0 +1,11 @@
+Index: 05
+----
+Colour: #DAFF45
+----
+Title: The curation of things
+----
+Author: A conversation with Sarah Hearne
+----
+Intro: 
+----
+Text: 

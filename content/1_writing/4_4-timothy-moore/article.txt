@@ -1,0 +1,11 @@
+Index: 04
+----
+Colour: #FADDDF
+----
+Title: The alibi of temporary architecture
+----
+Author: Timothy Moore
+----
+Intro: 
+----
+Text: 

@@ -1,0 +1,43 @@
+Title: Post- is after
+
+----
+
+Author: Jack Gillbanks & Eric Ye
+
+----
+
+Published: 2018-01-01
+
+----
+
+Colour: #F1F1F1
+
+----
+
+Background-colour: 
+
+----
+
+Render:
+
+- t00-copy.jpeg
+
+----
+
+Intro: Post- operates in the incessant present, where the proliferation of information dictates the speed at which certainty crumbles. The world today is complex and strange. The space between what we know and what we experience to be true is consistently brought into question by a media landscape defined by excess and saturation. Mediated by images, we are increasingly required to be aware of the manipulations that occur in their assembly and curation.
+
+----
+
+Article: [{"content":{"text":"<p>Post- is after the internet. Platforms and algorithms have colonised media, rather than vilify these agents of change we look to them in order to shape our concept of communication.<\/p><p>On your Facebook feed a cat video may share the same 500 x 520-pixel screen real estate as a decades long dissertation\u2014all governed by the unique preferences of its user (you). The hierarchical landscape of information is flattened. In the flurry of information that is the news feed, a simple swipe down brings forth an endless stream of fresh content. Perfectly aligned, kerned and displayed for consumption.<\/p><p>Post- yields to the flatness of a perpetually aggregating feed. By approaching the expanded field of topics and actors in earnest and without agenda we hope to expand conversations on architecture and it\u2019s place in the city, with a glance beyond the conventional voices.<\/p><p>Post- is a celebration of these awkward adjacencies and accidental curations. We hope to seize the opportunities present within this curatorial ethos\u2014to become an earnest exploration into the shadows of \u2018des refus\u00e9s\u2019, into what exists beyond the orthodoxies of architecture as represented in Sydney.<\/p><p>We do not claim to have answers to the issues facing the city, we express them in order to identify\u2014before the fact\u2014the issues that are abound and we hope to address rather than solve them exploring their complexity through the curation of actors involved in its elucidation.<\/p>"},"id":"fbbd25df-d95e-4045-91bb-0e31143a2b6f","isHidden":false,"type":"text"}]
+
+----
+
+Files: 
+
+----
+
+Title-colour: Dark
+
+----
+
+Index: 0

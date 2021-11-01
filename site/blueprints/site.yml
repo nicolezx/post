@@ -1,0 +1,114 @@
+# title: Site
+# preset: pages
+# unlisted: true
+
+title: Site
+
+# preset: pages
+
+# unlisted: true
+
+columns:
+
+  - width: 1/2
+    sections:
+      pages:
+        type: pages
+        status: listed
+      other_pages:
+        label: Other Pages
+        type: pages
+        status: unlisted
+      splash:
+        type: fields
+        fields:
+          line:
+            type: line
+          splash_headline:
+            label: Splash
+            type: headline
+            numbered: false
+          splash_text_a:
+            label: Text A
+            type: textarea
+            required: true
+          splash_text_b:
+            label: Text B
+            type: textarea
+            required: true
+          splash_colour:
+            label: Background colour
+            type: colors
+            required: true
+
+  - width: 1/4
+    sections:
+      feature_a:
+        label: Feature
+        type: fields
+        fields:
+          feature_a_headline:
+            label: Feature 1/2
+            type: headline
+            numbered: false
+          feature_a_cta:
+            label: Prompt
+            type: text
+            help: Enter in title or sentence case without colon
+            # width: 1/2
+            # layout: cards
+          feature_a_text:
+            label: Text
+            type: text
+            help: Enter in title or sentence case
+            # width: 1/2
+            # layout: cards
+          feature_a_url:
+            label: Link
+            type: select
+            options: query
+            query: site.children.children.published
+            required: true
+            # width: 1/2
+            # layout: cards
+          colour_a:
+            label: Background colour
+            type: colors
+            required: true
+            # width: 1/2
+
+  - width: 1/4
+    sections:
+      feature_b:
+        label: Feature
+        type: fields
+        fields:
+          feature_b_headline:
+            label: Feature 2/2
+            type: headline
+            numbered: false
+          feature_b_cta:
+            label: Prompt
+            type: text
+            help: Enter in title or sentence case without colon
+            # width: 1/2
+            # layout: cards
+          feature_b_text:
+            label: Text
+            type: text
+            help: Enter in title or sentence case
+            # width: 1/2
+            # layout: cards
+          feature_b_url:
+            label: Link (optional)
+            type: select
+            options: query
+            query: site.children.children.published
+            # width: 1/2
+            required: false
+            # layout: cards
+          colour_b:
+            label: Background colour
+            type: colors
+            required: false
+            # width: 1/2

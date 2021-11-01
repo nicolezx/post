@@ -1,0 +1,74 @@
+Title: Post-
+
+----
+
+Splash-text-a: Post- acknowledges the traditional custodians of the land on which we operate: the People and Elders past, present and emerging of the Eora Nations.
+
+----
+
+Splash-text-b: Writing, designing, publishing, curating on the periphery of architecture
+
+----
+
+Splash-colour: #dddddd
+
+----
+
+Feature-a-cta: Read now
+
+----
+
+Feature-a-text: Post- is after
+
+----
+
+Feature-a-url: writing/0-post-is-after
+
+----
+
+Colour-a: #c6dde8
+
+----
+
+Feature-b-cta: New article
+
+----
+
+Feature-b-text: The Distance Between Two Notes
+
+----
+
+Feature-b-url: writing/7-nicholas-godin
+
+----
+
+Colour-b: #899e91
+
+----
+
+Feature-b: writing/3-jack-self
+
+----
+
+Feature-a: writing/0-post-is-after
+
+----
+
+Feature: writing/7-nicholas-godin, writing/0-post-is-after
+
+----
+
+Menu: Menu
+
+----
+
+Instagram: https://instagram.com/post.publication
+
+----
+
+Footer:
+
+Post- acknowledges the traditional custodians of the land on which we operate:
+the People and Elders past, present and emerging of the Eora Nations.
+Writing, designing, publishing, curating
+on the periphery of architecture. © 2021.

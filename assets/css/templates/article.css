@@ -1,0 +1,48 @@
+/* Article */
+
+.article-header {
+    width: 100vw;
+}
+
+.article-header-text {
+    width: 100%;
+    /* height: 100%; */
+    /* margin: calc(var(--padding-2x) * -1); */
+    position: relative;
+    text-align: center;
+    /* padding: 0 1vw; */
+    flex-shrink: 1;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+
+.article-title {
+    max-width: 60vw;
+}
+
+.article-author {
+    position: absolute;
+    bottom: var(--sans-small-line);
+}
+
+.article-header-featuredimage {
+    flex-shrink: 1;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.article-header-featuredimage img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+}
+
+.article-intro {
+    padding-bottom: var(--serif-medium-line);
+}
+
+.article-footer {
+    padding-top: var(--sans-small-line);
+    border-top: var(--border-black);
+}

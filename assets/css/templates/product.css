@@ -1,0 +1,60 @@
+.product-header {
+  margin-top: calc(-1 * var(--padding-2x));
+  margin-left: calc(-1 * var(--padding-2x));
+  margin-right: calc(-1 * var(--padding-2x));
+}
+
+.product-images {
+  background-color: #F1F1F1;
+}
+
+.product-header .swiper {
+  width: 50%;
+  height: 100%;
+}
+
+.product-images .swiper-slide {
+  padding: var(--padding-2x);
+}
+
+.product-images .swiper-slide img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
+
+.product-header div {
+  width: 50%;
+}
+
+.product-header-details {
+  background-color: white;
+  flex-flow: column nowrap;
+}
+
+.product-header-details div {
+  height: 50%;
+  width: 100%;
+  padding: var(--padding-2x);
+}
+
+.product-body-details {
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: var(--padding-2x);
+  padding-bottom: calc(2 * var(--padding-2x));
+}
+
+button.snipcart-add-item {
+  padding: var(--padding);
+  width: 100%;
+  text-align: center;
+  font-size: var(--sans-medium);
+  border: var(--border-black);
+  background-color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}

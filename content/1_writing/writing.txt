@@ -1,0 +1,17 @@
+Title: Writing
+
+----
+
+Feature-type: text_marquee
+
+----
+
+Feature-text: NEW ARTICLE: The Distance Between Two Notes
+
+----
+
+Feature-link: writing/7-nicholas-godin
+
+----
+
+Feature-image: 

@@ -1,0 +1,47 @@
+title: Article
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          title:
+            type: text
+          year:
+            type: number
+            min: 2017
+            required: true
+          type:
+            type: multiselect
+            options:
+              - Curation
+              - Publishing
+              - Design
+              - Editing
+              - Consulting
+              - Architecture
+          collaborators:
+            type: textarea
+          sponsors:
+            type: textarea
+          credit:
+            type: textarea
+
+  - width: 1/2
+    sections:
+      body:
+        type: fields
+        fields:
+          images:
+            template: 
+            - project_image
+            type: files
+            layout: cards
+            size: tiny
+            # info: "{{ file.dimensions }}"
+            required: true
+            image:
+              ratio: 1/1
+          text:
+            type: textarea

@@ -1,0 +1,49 @@
+title: Shop
+
+columns:
+  - width: 1/3
+    sections:
+      shop_title:
+        label: Shop Title
+        type: fields
+        fields:
+          shop_title:
+            type: text
+      shop_feature:
+        type: fields
+        fields:
+          headline:
+            label: Featured product
+            type: headline
+            numbered: false
+          feature_type:
+            label: Type
+            type: select
+            options:
+              text_marquee: Text Marquee
+              image: Image
+          feature_text:
+            label: Text
+            type: text
+          feature_link:
+            label: Link
+            type: select
+            options: query
+            query: site.children.children.published
+            required: true
+          feature_image:
+            label: Feature image
+            type: files
+            layout: cards
+            max: 1
+            image:
+              ratio: 1/1
+
+  - width: 2/3
+    sections:
+      products:
+        type: pages
+        layout: cards
+        template: product
+        image:
+          ratio: 1/1

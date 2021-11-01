@@ -1,0 +1,106 @@
+title: Article
+
+columns:
+  - width: 1/3
+    sections:
+      info:
+        type: fields
+        fields:
+          title:
+            type: text
+          title_condensed:
+            label: Short Title
+            type: text
+          sub:
+            label: Subtitle
+            type: text
+          author:
+            type: text
+            icon: user
+            required: true
+          published:
+            type: date
+            # display: YYYY-MM-DD
+            # display: MMMM D, YYYY
+            # required: true
+          # index:
+          #   type: number
+          colour:
+            type: colors
+            required: true
+            # width: 1/2
+          # featured_image:
+          #   type: image
+          white_text:
+            label: Dark background
+            help: Check this option when the article background colour is dark
+            type: toggle
+            text:
+              - "No"
+              - "Yes"
+            # width: 1/2
+          feature_image_size:
+            label: Featured image size
+            type: toggle
+            text:
+              - "Full"
+              - "Inset"
+          render:
+            template: 
+            - render
+            type: files
+            layout: cards
+            size: tiny
+            info: "{{ file.dimensions }}"
+            max: 1
+            image:
+              ratio: 4/5
+            # width: 1/2
+          feature:
+            type: files
+            layout: cards
+            size: tiny
+            max: 1
+            image:
+              ratio: 4/5
+            # width: 1/2
+
+
+  - width: 2/3
+    sections:
+      body:
+        type: fields
+        fields:
+          intro:
+            type: textarea
+          article:
+            type: layout
+            layouts:
+              - "1/1"
+              - "1/2, 1/2"
+              - "1/3, 1/3, 1/3"
+              - "5/12, 7/12"
+              - "5/12, 1/12, 6/12"
+              - "6/12, 1/12, 5/12"
+              - "7/12, 5/12"
+              - "5/12"
+              - "7/12"
+              - "10/12"
+              - "2/12, 10/12"
+            fieldsets:
+              - heading
+              - text
+              - image
+              - quote
+              - video
+            settings:
+              fields:
+                text_type:
+                  type: select
+                  options:
+                    paragraph: Paragraph
+                    interview_q: Interview (Q)
+                    interview_a: Interview (A)
+          author_bio:
+            label: Author Bio
+            type: textarea
